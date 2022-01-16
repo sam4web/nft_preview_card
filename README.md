@@ -25,6 +25,11 @@ Users should be able to:
 
 ![screenshot](./screenshot.png)
 
+### Links
+
+- Solution URL: https://www.frontendmentor.io/solutions/nft-preview-card-component-KBKodqAlN
+- Live Site URL: https://sam4web.github.io/nft_preview_card/
+
 ## My process
 
 ### Built with
