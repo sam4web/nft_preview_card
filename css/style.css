@@ -23,7 +23,7 @@ body {
   padding: 0px;
   height: 100vh;
   font-family: 'Outfit', sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 300;
   background-color: var(--main-bg);
   display: grid;
@@ -36,7 +36,7 @@ img {
 }
 
 .container {
-  max-width: 400px;
+  max-width: 350px;
   width: 100%;
   background-color: var(--card-bg);
   color: var(--soft-blue);
@@ -44,14 +44,38 @@ img {
   padding-bottom: 2rem;
   border-radius: 20px;
   display: grid;
-  row-gap: 1.4rem;
+  row-gap: 1rem;
   box-shadow: 2px 2px 5rem #000000;
+  position: relative;
 }
 
-.img-block {
-  border-radius: 15px;
+.main-equilibrium {
   margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.main-equilibrium div {
+  position: absolute;
+  top: 0px;
+  background-color: hsla(178, 100%, 50%, 0.5);
+  width: 100%;
+  height: 98.5%;
+  z-index: 999;
+  border-radius: 20px;
+  opacity: 0;
+  transition: all 200ms ease-in-out;
+  display: grid;
+  place-items: center;
+}
+
+.main-equilibrium div:hover {
+  opacity: 1;
   cursor: pointer;
+}
+
+.nft-img {
+  position: relative;
+  border-radius: 20px;
 }
 
 .img-block:hover {
