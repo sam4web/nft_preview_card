@@ -44,7 +44,7 @@ img {
   padding-bottom: 2rem;
   border-radius: 20px;
   display: grid;
-  row-gap: 1.15rem;
+  row-gap: 0.75rem;
   box-shadow: 2px 2px 5rem #000000;
   position: relative;
 }
@@ -85,6 +85,7 @@ img {
 h2,
 p {
   margin: 0;
+  margin-bottom: 0.5rem;
 }
 
 h2 {
@@ -99,18 +100,19 @@ h2:hover,
   cursor: pointer;
 }
 
-div.row-1 {
+ul {
   display: flex;
   justify-content: space-between;
+  padding: 0;
 }
 
-div.row-1 > div {
+li {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-div.row-1 > div:first-child {
+li:first-child {
   color: var(--cyan);
   font-weight: 400;
 }
@@ -122,19 +124,19 @@ div.row-1 > div:first-child {
   margin-top: 0.5rem;
 }
 
-div.row-2 {
+.author {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-div.row-2 > img {
+.author > img {
   width: 10%;
   border: 1px solid var(--white);
   border-radius: 50%;
 }
 
-.creator-name {
+.author-name {
   color: var(--white);
 }
 
