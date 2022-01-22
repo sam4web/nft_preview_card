@@ -44,7 +44,7 @@ img {
   padding-bottom: 2rem;
   border-radius: 20px;
   display: grid;
-  row-gap: 0.75rem;
+  row-gap: 1rem;
   box-shadow: 2px 2px 5rem #000000;
   position: relative;
 }
