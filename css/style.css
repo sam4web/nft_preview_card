@@ -23,7 +23,7 @@ body {
   padding: 0px;
   height: 100vh;
   font-family: 'Outfit', sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 300;
   background-color: var(--main-bg);
   display: grid;
@@ -44,7 +44,7 @@ img {
   padding-bottom: 2rem;
   border-radius: 20px;
   display: grid;
-  row-gap: 1rem;
+  row-gap: 1.15rem;
   box-shadow: 2px 2px 5rem #000000;
   position: relative;
 }
